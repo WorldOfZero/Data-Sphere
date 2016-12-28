@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class DataSphereEmitter : MonoBehaviour {
 
     public ParticleSystem system;
@@ -14,7 +14,7 @@ public class DataSphereEmitter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    //for (int i = 0; i < 10; ++i)
+	    for (int i = 0; i < 10; ++i)
 	    {
 	        CreateDataPoint(Random.value, Random.Range(-1f, 1f));
 	    }
