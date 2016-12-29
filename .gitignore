@@ -28,3 +28,11 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/Plugins/DataSphere.Plugins/.vs
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Common/obj/Debug
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Common/bin/Debug
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.RandomGeneratorExample/obj/Debug/netcoreapp1.0
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.RandomGeneratorExample/bin/Debug/netcoreapp1.0
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Common/project.lock.json
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.RandomGeneratorExample/project.lock.json
+/.vs/config/applicationhost.config
