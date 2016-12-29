@@ -14,7 +14,7 @@ public class DataSphereEmitter : MonoBehaviour {
 
     private void CreateDataPoint(float rightAscension, float declination, Color color)
     {
-        var dataPosition = new Vector3(Mathf.Sin(rightAscension * Mathf.PI) * Mathf.Cos(declination * Mathf.PI), Mathf.Sin(declination * Mathf.PI), Mathf.Cos(rightAscension * Mathf.PI) * Mathf.Cos(declination * Mathf.PI));
+        var dataPosition = new Vector3(Mathf.Sin(rightAscension * Mathf.PI * 2) * Mathf.Cos(declination * Mathf.PI), Mathf.Sin(declination * Mathf.PI), Mathf.Cos(rightAscension * Mathf.PI * 2) * Mathf.Cos(declination * Mathf.PI));
         system.Emit(new ParticleSystem.EmitParams() { position = dataPosition, startColor = color }, 1);
     }
 }

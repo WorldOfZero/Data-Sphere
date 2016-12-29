@@ -12,11 +12,12 @@ namespace DataSphere.Plugins.RandomGeneratorExample
         public float rightAscension;
     }
 
+    // #55acee
     public class DataPointColor
     {
-        public float r = 1;
-        public float g = 1;
-        public float b = 1;
+        public float r = 0.4f;
+        public float g = 0.75f;
+        public float b = 0.95f;
         public float a = 1;
     }
 }

@@ -12,8 +12,8 @@ namespace DataSphere.Plugins.RandomGeneratorExample
         public static void Main(string[] args)
         {
             Common.DataSphereClient client = new Common.DataSphereClient("127.0.0.1", 9001);
-            double rightAscensionSpeed = 2;
-            double declinationSpeed = 0.5f;
+            double rightAscensionSpeed = 0.33f;
+            double declinationSpeed = 0.1f;
             double rightAscension = 0;
             double declination = -1;
             Stopwatch stopwatch = new Stopwatch();
