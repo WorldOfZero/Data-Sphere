@@ -36,3 +36,6 @@ sysinfo.txt
 /Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Common/project.lock.json
 /Plugins/DataSphere.Plugins/src/DataSphere.Plugins.RandomGeneratorExample/project.lock.json
 /.vs/config/applicationhost.config
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Twitter/obj/Debug/netcoreapp1.0
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Twitter/bin/Debug/netcoreapp1.0
+/Plugins/DataSphere.Plugins/src/DataSphere.Plugins.Twitter/Properties/launchSettings.json
